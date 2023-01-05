@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+/* first div */
+.topbar{
+    width: 100%;
+    height: 85vh;
+    background-image: url(images/img21.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* nav starts */
+nav{
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(95, 14, 14);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+}
+nav a:hover{
+    color: rgb(35, 105, 105);
+}
+.ordernow{
+    text-decoration: none;
+}
+.ordernow:hover{
+    color: rgb(35, 105, 105);
+}
+.order{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(95, 14, 14);
+    color: rgb(204, 204, 13);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* navbar ends */
+.lowbar{
+    width: 85%;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-size: 25px;
+}
+.bacon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 14, 14);
+}
+.lowbar p{
+    font-family: cursive;
+    color: rgb(105, 61, 11);
+    margin-top: 25px;
+}
+.lowbar a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(95, 14, 14);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.lowbar a:hover{
+    color: rgb(35, 105, 105);
+}
+/* first div ends */
+/* second/menu div */
+.ourMenu{
+   width: 100%; 
+   height: 125vh;
+   background-image:url(images/img41.webp);
+}
+.menu{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(95, 14, 14);
+    font-size: 40px;
+    font-family: cursive;
+}
+.ourMenu .burger{
+    width: 20%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourMenu a{
+    color: rgb(35, 105, 105);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: cursive;
+}
+.ourMenu a:hover{
+    color: rgb(95, 14, 14);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.grid-item h3{
+    font-size: 22px;
+    color: rgb(95, 14, 14);
+    font-family: cursive;
+}
+.grid-item p{
+    color: rgb(48, 11, 11);
+    padding-top: 10px;
+}
+.one{
+    width: 8%;
+    margin: auto;
+    height: 15vh;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.one a{
+   color: rgb(48, 11, 11);
+}
+.one a:hover{
+    color: rgb(35, 105, 105);
+}
+/* second/menu div ends */
+/* third div starts */
+.locations{
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+}
+.locations h1{
+    color: rgb(95, 14, 14);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.locations ul{
+    width: 35%;
+    margin: auto;
+    height: 20vh;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.locations a{
+    color: rgb(35, 105, 105);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+.locations a:hover {
+    border: 2px solid rgb(95, 14, 14);
+    color: rgb(95, 14, 14);
+}
+.map{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.map .broadway{
+   padding-top: 40px;
+   color: rgb(95, 14, 14);
+   font-size: 20px;
+   font-style: italic;
+}
+.map .grand{
+    padding-top: 40px;
+    color: rgb(35, 105, 105);
+    font-size: 18px;
+    font-family: cursive;
+}
+.map .mon{
+    padding-top: 20px;
+    color: rgb(35, 105, 105);
+    font-size: 20px;
+}
+.map h4{
+    padding-top: 70px;
+    color: rgb(48, 11, 11);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* third div ends */
+/* fourth div begins */
+.box{
+    width: 100%;
+    height: 27vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* fourth div ends */
+/* footer begins */
+footer{
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(48, 11, 11);
+}
+.foot{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 30px;
+}
+.foot h2{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.foot p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: cursive;
+    color: rgb(230, 148, 7);
+}
+.foot h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot ul{
+    display: flex;
+    list-style-type: none;
+}
+.foot a{
+    text-decoration: none;
+    padding: 20px 15px;
+}
